@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <title>Command Executor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Command Executor</div>
+        <p>by Anirudh Madhusudhan</p>
+        <form action="/command" method="post" class="command-form">
+            <input type="text" name="command" id="command" placeholder="Enter your command" autocomplete="off">
+            <button type="submit">Execute</button>
+        </form>
+    </div>
+</body>
+</html>

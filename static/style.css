@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0f0f0f;
+    color: #33ff33;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px 0; /* Add some padding at the top and bottom */
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px; /* Space between container and output */
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid #33ff33;
+    width: 80%; /* Adjust the width as per your design */
+}
+
+.logo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #33ff33;
+}
+
+.command-form {
+    margin: 0 auto;
+    width: 100%; /* Form width */
+}
+
+input[type="text"], button {
+    padding: 15px 25px;
+    border: 1px solid #33ff33;
+    background-color: #0f0f0f;
+    color: #33ff33;
+    border-radius: 3px;
+    margin: 10px 0;
+    width: calc(100% - 52px); /* Adjust width to account for padding */
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input[type="text"]::placeholder {
+    color: #4dff4d;
+}
+
+button {
+    cursor: pointer;
+    background-color: #0f0f0f;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #33ff33;
+    color: #0f0f0f;
+}
+
+.Output {
+    text-align: left; /* Aligns the text to the left inside the output container */
+    width: 80%; /* Matches the container width */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Dark background for output area */
+    border-radius: 10px;
+    border: 1px solid #33ff33;
+    margin: 0 auto; /* Center the output box */
+}
+
+.Output h2 {
+    color: #33ff33;
+    margin: 10px 0;
+}
+
+.Output pre {
+    background: #0f0f0f;
+    padding: 10px;
+    border-radius: 5px;
+    color: #33ff33;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
